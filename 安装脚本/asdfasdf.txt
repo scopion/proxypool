@@ -1,0 +1,5 @@
+#!/bin/bash
+# 1. use adsl-setup to configuration for adsl
+# 2. use adsl-start to connect
+
+echo 'asdfasdfasdf'

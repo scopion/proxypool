@@ -1,0 +1,1 @@
+nohup ifstat -atD &

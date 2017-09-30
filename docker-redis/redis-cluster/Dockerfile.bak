@@ -1,0 +1,16 @@
+#docker build -t yujieshui/squid .
+#docker run -itd --name squid -p 8888:8888 yujieshui/squid
+#docker exec squid service squid start
+#Ctrl+P+Q
+
+FROM redis:3.0.1
+
+MAINTAINER yujieshui a1178615156@gmail.com
+
+ADD redis-conf-7001.conf redis-conf-7001.conf
+ADD redis-conf-7001.conf redis-conf-7001.conf
+ADD redis-conf-7001.conf redis-conf-7001.conf
+ADD redis-conf-7001.conf redis-conf-7001.conf
+ADD redis-conf-7001.conf redis-conf-7001.conf
+
+EXPOSE 7001/tcp 7002/tcp 7003/tcp 7004/tcp 7005/tcp
